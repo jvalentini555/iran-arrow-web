@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.formatOnSave": true,
+		"files.autoSave": "afterDelay",
+		"editor.formatOnPaste": true,
+		"editor.autoClosingBrackets": "beforeWhitespace",
+		"editor.autoClosingQuotes": "beforeWhitespace",
+		"editor.autoIndentOnPaste": true,
+		"workbench.settings.showAISearchToggle": false,
+		"chat.disableAIFeatures": true,
+		"gitlens.ai.enabled": false,
+		"telemetry.editStats.enabled": false,
+		"telemetry.feedback.enabled": false,
+		"dotnetAcquisitionExtension.enableTelemetry": false,
+		"gitlens.telemetry.enabled": false
+	}
+}
