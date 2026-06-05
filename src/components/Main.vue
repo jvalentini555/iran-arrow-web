@@ -1,30 +1,25 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-import { Icon } from '@iconify/vue'
 </script>
 
 <template>
   <header class="content fluid" style="--count: 7">
       <section class="content">
         <h1>
-          <span aria-hidden="true">you can&nbsp;</span>
-          <span class="sr-only">you can ship things.</span>
+          <span aria-hidden="true">Hi Shahin&nbsp;</span>
         </h1>
         <ul aria-hidden="true">
-          <li style="--i: 0">design.</li>
-          <li style="--i: 1">prototype.</li>
-          <li style="--i: 2">solve.</li>
-          <li style="--i: 3">build.</li>
-          <li style="--i: 4">develop.</li>
-          <li style="--i: 5">cook.</li>
-          <li style="--i: 6">ship.</li>
+          <li style="--i: 0">Julia</li>
+          <li style="--i: 1">Figured</li>
+          <li style="--i: 2">Out</li>
+          <li style="--i: 3">Free</li>
+          <li style="--i: 4">Hosting</li>
         </ul>
       </section>
     </header>
     <main>
       <section>
         <p class="fluid">
-          and i'll show you how.<br />
+          Just to give you an idea.<br />
         </p>
       </section>
     </main>
