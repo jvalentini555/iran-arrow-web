@@ -3,26 +3,26 @@
 
 <template>
   <header class="content fluid" style="--count: 7">
-      <section class="content">
-        <h1>
-          <span aria-hidden="true">Hi Shahin&nbsp;</span>
-        </h1>
-        <ul aria-hidden="true">
-          <li style="--i: 0">Julia</li>
-          <li style="--i: 1">Figured</li>
-          <li style="--i: 2">Out</li>
-          <li style="--i: 3">Free</li>
-          <li style="--i: 4">Hosting</li>
-        </ul>
-      </section>
-    </header>
-    <main>
-      <section>
-        <p class="fluid">
-          Just to give you an idea.<br />
-        </p>
-      </section>
-    </main>
+    <section class="content">
+      <h1>
+        <img src="../assets/poster.png">
+      </h1>
+    </section>
+  </header>
+  <main>
+    <section>
+      <p class="fluid">
+        Just to give you an idea.<br />
+      </p>
+      <ul aria-hidden="true">
+        <li style="--i: 0">Julia</li>
+        <li style="--i: 1">Figured</li>
+        <li style="--i: 2">Out</li>
+        <li style="--i: 3">Free</li>
+        <li style="--i: 4">Hosting</li>
+      </ul>
+    </section>
+  </main>
 </template>
 
 <style>
@@ -44,8 +44,8 @@
 
 @layer stick {
   :root {
-    --start: 50vh;
-    --space: 50vh;
+    --start: 0vh;
+    --space: 0vh;
     --hue: 280;
     --accent: light-dark(hsl(var(--hue) 100% 50%), hsl(var(--hue) 90% 75%));
     /* --accent: oklch(200 10 10); */
@@ -55,7 +55,7 @@
     --switch: #000;
   }
   [data-theme='light'] {
-    --switch: #fff;
+    --switch: #f2f2f2;
   }
   header {
     --font-level: 4;
@@ -200,7 +200,7 @@
       position: absolute;
       inset: 0;
       z-index: -1;
-      background: light-dark(#000, #fff);
+      background: light-dark(#000, #f2f2f2);
     }
   }
   header section:first-of-type h1 {
