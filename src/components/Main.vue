@@ -4,15 +4,13 @@
 <template>
   <header class="content fluid" style="--count: 7">
     <section class="content">
-      <h1>
-        <img src="../assets/poster.png">
-      </h1>
+      <img src="../assets/poster.png">
     </section>
   </header>
   <main>
     <section>
       <p class="fluid">
-        Just to give you an idea.<br />
+        Iran's Arrow<br />
       </p>
       <ul aria-hidden="true">
         <li style="--i: 0">Julia</li>
@@ -67,6 +65,12 @@
     align-items: flex-start;
     width: 100%;
     margin-bottom: var(--space);
+  }
+
+  img {
+      max-width: 100%;
+      height: auto;
+      width: auto\9; /* ie8 */
   }
 
   li {
