@@ -8,12 +8,12 @@ const accordionItems = [
 ]
 </script>
 
-<template      
-  v-for="item in accordionItems"
-  :key="item.value"
->
+<template>
   <img src="../assets/poster.png">
   <main>
+    <template  
+      v-for="item in accordionItems"
+      :key="item.value">Short Synopsis</template>
     <p>
 Iran's Arrow is a 78 minute film about a rather ordinary British car introduced to Iran in 1967, which during its lengthy production period of 38 years became the national car in its new homeland.<br>
     </p>
