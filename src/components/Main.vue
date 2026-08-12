@@ -1,25 +1,17 @@
 <script setup lang="ts">
-import { Icon } from '@iconify/vue'
 const accordionItems = [
   {
     value: 'item-1',
     title: 'Synopsis',
     content: 'From the spring of 1967, when it first rolled off the assembly line in the outskirts of Tehran, Paykan was continuously produced for 38 years and played a fundamental role in Iranian society.\n\nThe film features people who share a common interest for the country\'s emblematic car, from pure passion to a complex love-hate connection.\n\nIran\'s Arrow uses rare archival footage and imagery to document the history of Paykan and how it has been perceived throughout the years and examines its links with Iran\'s major historical and sociological landmarks such as the White Revolution, the industrialization, the rise of the middle class, the Islamic Revolution, the Iran-Iraq war, and the post-war era.\n\nThe film also documents the decline of Paykan, and how it is still very much alive in the culture and memory of the country.',
-  },
-  {
-    value: 'item-2',
-    title: 'Featured Interviews',
-    content: 'Yes. It\'s unstyled by default, giving you freedom over the look and feel.',
-  },
-  {
-    value: 'item-3',
-    title: 'Directors',
-    content: 'Yes! You can use the transition prop to configure the animation.',
-  },
+  }
 ]
 </script>
 
-<template>
+<template      
+  v-for="item in accordionItems"
+  :key="item.value"
+>
   <img src="../assets/poster.png">
   <main>
     <p>
