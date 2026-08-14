@@ -50,9 +50,9 @@ Iran's Arrow is a 78 minute film about a rather ordinary British car introduced 
           </AccordionTrigger>
         </AccordionHeader>
         <AccordionContent class="text-mauve11 bg-mauve2 data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp overflow-hidden text-sm">
-          <div class="px-5 py-4">
+          <p>
             {{ item.content }}
-          </div>
+          </p>
         </AccordionContent>
       </AccordionItem>
     </template>
