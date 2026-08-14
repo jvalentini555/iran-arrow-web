@@ -29,7 +29,6 @@ Iran's Arrow is a 78 minute film about a rather ordinary British car introduced 
     <img src="../assets/award.png">
   </main>
   <AccordionRoot
-    default-value="item-1"
     type="single"
     :collapsible="true"
   >
