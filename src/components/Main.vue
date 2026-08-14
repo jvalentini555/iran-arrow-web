@@ -37,11 +37,10 @@ Iran's Arrow is a 78 minute film about a rather ordinary British car introduced 
       :key="item.value"
     >
       <AccordionItem
-        class="focus-within:shadow-mauve12 mt-px overflow-hidden first:mt-0 first:rounded-t-[7px] last:rounded-b-[7px] focus-within:relative focus-within:z-10 focus-within:shadow-[0_0_0_2px]"
         :value="item.value"
       >
-        <AccordionHeader class="flex">
-          <AccordionTrigger class="text-grass11 shadow-mauve6 hover:bg-mauve2 flex h-[45px] flex-1 cursor-default items-center justify-between bg-white px-5 text-sm leading-none shadow-[0_1px_0] outline-none group">
+        <AccordionHeader>
+          <AccordionTrigger>
             <span>{{ item.title }}</span>
             <Icon
               icon="radix-icons:chevron-down"
