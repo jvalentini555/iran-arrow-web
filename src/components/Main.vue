@@ -6,7 +6,10 @@ const accordionItems = [
   {
     value: 'item-1',
     title: 'Synopsis',
-    content: 'From the spring of 1967, when it first rolled off the assembly line in the outskirts of Tehran, Paykan was continuously produced for 38 years and played a fundamental role in Iranian society.<br><br>The film features people who share a common interest for the country\'s emblematic car, from pure passion to a complex love-hate connection.<br><br>Iran\'s Arrow uses rare archival footage and imagery to document the history of Paykan and how it has been perceived throughout the years and examines its links with Iran\'s major historical and sociological landmarks such as the White Revolution, the industrialization, the rise of the middle class, the Islamic Revolution, the Iran-Iraq war, and the post-war era.<br><br>The film also documents the decline of Paykan, and how it is still very much alive in the culture and memory of the country.',
+    content: [
+      'From the spring of 1967, when it first rolled off the assembly line in the outskirts of Tehran, Paykan was continuously produced for 38 years and played a fundamental role in Iranian society.',
+      'The film features people who share a common interest for the country\'s emblematic car, from pure passion to a complex love-hate connection.',
+      'Iran\'s Arrow uses rare archival footage and imagery to document the history of Paykan and how it has been perceived throughout the years and examines its links with Iran\'s major historical and sociological landmarks such as the White Revolution, the industrialization, the rise of the middle class, the Islamic Revolution, the Iran-Iraq war, and the post-war era.','The film also documents the decline of Paykan, and how it is still very much alive in the culture and memory of the country.'],
   }
 ]
 </script>
@@ -50,8 +53,11 @@ Iran's Arrow is a 78 minute film about a rather ordinary British car introduced 
           </AccordionTrigger>
         </AccordionHeader>
         <AccordionContent class="text-mauve11 bg-mauve2 data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp overflow-hidden text-sm">
-          <p>
-            {{ item.content }}
+          <p 
+            v-for="(part, index) in item.content"
+            :key="index"
+          >
+            {{ part }}<br>
           </p>
         </AccordionContent>
       </AccordionItem>
