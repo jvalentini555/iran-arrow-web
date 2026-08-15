@@ -65,7 +65,11 @@ p {
   text-align: left;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 15px;
+  padding-top: 10px;
+}
+
+div {
+  flex-direction: row;
 }
 
 #app {
