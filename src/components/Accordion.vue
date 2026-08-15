@@ -2,16 +2,16 @@
 import { Icon } from '@iconify/vue'
 import { AccordionContent, AccordionHeader, AccordionItem, AccordionTrigger } from 'reka-ui'
 import '../style.css'
-const props = defineProps({'title': String, 'value': String})
+const props = defineProps({'title': String, 'itemValue': String})
 </script>
 
 <template>
   <AccordionItem 
     class="AccordionItem"
-    value={{value}}>
+    :value="props.itemValue">
     <AccordionHeader class="AccordionHeader">
       <AccordionTrigger class="AccordionTrigger">
-        <span>{{title}}</span>
+        <span>{{props.title}}</span>
         <Icon
           icon="radix-icons:chevron-down"
           class="AccordionChevron"
