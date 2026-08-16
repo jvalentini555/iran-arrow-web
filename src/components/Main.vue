@@ -36,20 +36,30 @@ import { AccordionRoot } from 'reka-ui'
       The film also documents the decline of Paykan, and how it is still very much alive in the culture and memory of the country.<br>
     </Accordion>
     <Accordion title="Featured Experts" value="item-2">
-      <div>
+      <div class="profile">
         <center><img class="expert-pic" src="../assets/talking-head-amir-tehrani.png"></center>
         <b>Amir Tehrani</b> is a PhD candidate in sociology at Tarbiat Modarres University. He received his master's degree from London 
           School of Economics and his main areas of interest include urbanization, urban mobility and urban transportation.<br><br>
+      </div>
+      <div class="profile">
         <center><img class="expert-pic" src="../assets/talking-head-gholam-khoshsafar.png"></center>
         <b>Gholam Khoshsafar</b> is one of the most experienced Paykan mechanics still working in Tehran.<br><br>
+      </div>
+      <div class="profile">
         <center><img class="expert-pic" src="../assets/talking-head-davoud-mirkhani-rashti.png"></center>
         <b>Davoud Mirkhani Rashti</b> the CEO of Iran Khodro (Paykan manufacturer) from 1983 to 1989 and was
           tasked with maintaining Paykan production during the Iran-Iraq war.<br><br>
+      </div>
+      <div class="profile">
         <center><img class="expert-pic" src="../assets/talking-head-afshin-ghaderpanah.png"></center>
         <b>Afshin Ghaderpanah</b> is a fine art photographer and avid car enthusiast.<br><br>
+      </div>
+      <div class="profile">  
         <center><img class="expert-pic" src="../assets/talking-head-raana-farnoud.png"></center>
         <b>Raana Farnoud</b> graduated from Tehran University of Fine Arts, and is a well known Iranian painter.
           She discusses how Paykan gave mobility to women in Iran.<br><br>
+      </div>
+      <div class="profile">  
         <center><img class="expert-pic" src="../assets/talking-head-kamran-shirdel.png"></center>
         <b>Kamran Shirdel</b> is a prominent Iranian filmmaker who studied at Centro Sperimentale di Cinematografia of Rome. 
           His 'Paykan Industrial Film' and the iconic 'Happy Birthday Paykan' advertisement were among the most memorable
@@ -57,7 +67,7 @@ import { AccordionRoot } from 'reka-ui'
       </div>
     </Accordion>
     <Accordion title="Directors" value="item-3">
-      <div>
+      <div class="profile">
         <center><img class="director-pic" src="../assets/director-shahin-armin.png"></center>
         <b>Shahin Armin</b> is an automotive design-engineer and a Paykan fanatic. Born in Tehran and a car enthusiast 
           before he could even talk or walk, he moved to the US in his twenties and worked in the US car industry for 13 years 
@@ -69,6 +79,8 @@ import { AccordionRoot } from 'reka-ui'
           Iran's Arrow is a result of Shahin's extensive research into the history of Paykan, interactions
           with fellow Paykan enthusiasts, and comprehensive understanding of Paykan's impact on
           Iranian society.<br><br>
+      </div>
+      <div class="profile">  
         <center><img class="director-pic" src="../assets/director-sohrab-daryabandari.png"></center>
         <b>Sohrab Daryabandari</b> is a Tehran based professional photographer and filmmaker whose
           25 year-long career has been stretching between many areas of expertise in analog and
@@ -100,8 +112,7 @@ import { AccordionRoot } from 'reka-ui'
       <img class="gallery" src="../assets/car-statue.png">
       <center>Paykan sculpture</center>
       <img class="gallery" src="../assets/car-art-exhibit.png">
-      <center>Paykan art exhibition</center>
-
+      <center>Paykan art exhibition</center><br>
     </Accordion>
   </AccordionRoot>
   <img class="gallery" src="../assets/blueprint.png">
