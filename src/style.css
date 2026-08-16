@@ -73,6 +73,19 @@ p {
   height:150px;
 }
 
+.director-pic {
+  width: auto;
+  height: 250px;
+}
+
+.footer {
+  background-color: #16171d;
+  color: #F2F2F2;
+  height: 40px;
+  position: sticky;
+  padding-top: 10px
+}
+
 #app {
   width: 1126px;
   max-width: 100%;

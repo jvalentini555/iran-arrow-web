@@ -33,7 +33,7 @@ import { AccordionRoot } from 'reka-ui'
       how it has been perceived throughout the years and examines its links with Iran's major historical 
       and sociological landmarks such as the White Revolution, the industrialization, the rise of the middle class, 
       the Islamic Revolution, the Iran-Iraq war, and the post-war era.<br><br>
-      The film also documents the decline of Paykan, and how it is still very much alive in the culture and memory of the country.<br><br>
+      The film also documents the decline of Paykan, and how it is still very much alive in the culture and memory of the country.<br>
     </Accordion>
     <Accordion title="Featured Experts" value="item-2">
       <div>
@@ -56,6 +56,31 @@ import { AccordionRoot } from 'reka-ui'
           cultural works of the 70s in Iran.</p><br>
       </div>
     </Accordion>
+    <Accordion title="Directors" value="item-3">
+      <div>
+        <center><img class="director-pic" src="../assets/director-shahin-armin.png"></center>
+        <p><b>Shahin Armin</b> is an automotive design-engineer and a Paykan fanatic. Born in Tehran and a car enthusiast 
+          before he could even talk or walk, he moved to the US in his twenties and worked in the US car industry for 13 years 
+          (Chrysler, Michigan and Honda America, Ohio).<br><br>
+          Although he worked on modern and sophisticated cars, he could never get the Paykan out
+          of his mind. In 2009 he started the PaykanHunter.com blog, thus initiating an extensive
+          research into Iran's emblematic car. Upon returning to Tehran in 2012, he co-curated two
+          Paykan themed art exhibitions along with prominent Iranian artists.<br><br>
+          Iran's Arrow is a result of Shahin's extensive research into the history of Paykan, interactions
+          with fellow Paykan enthusiasts, and comprehensive understanding of Paykan's impact on
+          Iranian society.</p><br>
+        <center><img class="director-pic" src="../assets/director-sohrab-daryabandari.png"></center>
+        <p><b>Sohrab Daryabandari</b> is a Tehran based professional photographer and filmmaker whose
+          25 year-long career has been stretching between many areas of expertise in analog and
+          digital photography. His work has ranged from journalistic, commercial, and artistic to
+          architectural and industrial photography, which later lead him to editing and documentary
+          filmmaking.<br><br>
+          His photographic work, which was regularly exhibited and published in Iran and Europe, has
+          influenced his filmmaking, notably in Dammam (Iran, 2003) and Sharveh (Iran, 2005), his
+          two documentaries on ethnic Iranian music.</p>
+      </div>
+    </Accordion>
   </AccordionRoot>
+  <span class="footer">Email: <a href="mailto:email@example.com">Shahin@PaykanHunter.com</a> | 2026 ©</span>
 </template>
 
