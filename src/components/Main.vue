@@ -114,6 +114,21 @@ import { AccordionRoot } from 'reka-ui'
       <img class="gallery" src="../assets/car-art-exhibit.png">
       <center>Paykan art exhibition</center><br>
     </Accordion>
+    <Accordion title="Featured In" value="item-5">
+      <b><a href="https://www.nytimes.com/2013/10/24/world/middleeast/a-homely-relic-on-wheels-awakens-nostalgia-in-iran.html">The New York Times</a></b> - October 2023<br>
+      <b><a href="https://petrolicious.com/blogs/articles/broken-arrow-former-designer-works-to-remember-iran-s-first-national-car">Petrolicious.com</a></b> - April 2015<br>
+      <b><a href="https://www.autoweek.com/car-life/a1831806/irans-arrow-dont-miss-documentary-about-irans-beloved-hillman-hunters/">AUTOWEEK.com</a></b> - October 2017<br>
+      <b>Reorientmag.com</b> - December 2015<br>
+      <b>Roadkill.com</b> - October 2017<br>
+      <br>
+      <b><u>Festivals and Screenings</u></b><br>
+      <b>Art & Experience Cinema (Honar-O-Tarobeh)</b> - May 13th, 2017 - Cinema Museum, Tehran<br>
+      <b>Iranian Film Festival</b> - 23-24th September, 2017 - San Francisco - <b>Awarded Best Documentary</b><br>
+      <b>Danish Film Institute</b> - 15-28th April, 2018 - Copenhagen, Denmark<br>
+      <b>Visions of Iran</b> - 31st May - 3rd June, 2018 - Cologne, Germany<br>
+      <b>The Adventure Travel Film Festival</b> - 10-12th August, 2018 - London, UK<br>
+      <b>Tirgan Festival</b> - 25-28th July, 2019 - Toronto, Canada<br><br>
+    </Accordion>
   </AccordionRoot>
   <img class="gallery" src="../assets/blueprint.png">
   <span class="footer">Email: <a href="mailto:email@example.com">Shahin@PaykanHunter.com</a> | 2026 ©</span>
