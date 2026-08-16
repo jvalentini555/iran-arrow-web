@@ -66,6 +66,7 @@ p {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .expert-pic {
@@ -86,6 +87,9 @@ p {
   padding-top: 10px
 }
 
+.gallery {
+  width: 100%
+}
 #app {
   width: 1126px;
   max-width: 100%;
