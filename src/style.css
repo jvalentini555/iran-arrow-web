@@ -68,8 +68,9 @@ p {
   padding-top: 10px;
 }
 
-div {
-  flex-direction: row;
+.expert-pic {
+  width: auto;
+  height:150px;
 }
 
 #app {

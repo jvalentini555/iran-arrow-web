@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { Icon } from '@iconify/vue'
 import { AccordionContent, AccordionHeader, AccordionItem, AccordionTrigger } from 'reka-ui'
-import '../style.css'
+
 const props = defineProps({'title': String, 'itemValue': String})
 </script>
 

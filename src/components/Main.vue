@@ -37,7 +37,23 @@ import { AccordionRoot } from 'reka-ui'
     </Accordion>
     <Accordion title="Featured Experts" value="item-2">
       <div>
-        <img src="../assets/talking-head-amir-tehrani.png">
+        <center><img class="expert-pic" src="../assets/talking-head-amir-tehrani.png"></center>
+        <p><b>Amir Tehrani</b> is a PhD candidate in sociology at Tarbiat Modarres University. He received his master's degree from London 
+          School of Economics and his main areas of interest include urbanization, urban mobility and urban transportation.</p><br>
+        <center><img class="expert-pic" src="../assets/talking-head-gholam-khoshsafar.png"></center>
+        <p><b>Gholam Khoshsafar</b> is one of the most experienced Paykan mechanics still working in Tehran.</p><br>
+        <center><img class="expert-pic" src="../assets/talking-head-davoud-mirkhani-rashti.png"></center>
+        <p><b>Davoud Mirkhani Rashti</b> the CEO of Iran Khodro (Paykan manufacturer) from 1983 to 1989 and was
+          tasked with maintaining Paykan production during the Iran-Iraq war.</p><br>
+        <center><img class="expert-pic" src="../assets/talking-head-afshin-ghaderpanah.png"></center>
+        <p><b>Afshin Ghaderpanah</b> is a fine art photographer and avid car enthusiast.</p><br>
+        <center><img class="expert-pic" src="../assets/talking-head-raana-farnoud.png"></center>
+        <p><b>Raana Farnoud</b> graduated from Tehran University of Fine Arts, and is a well known Iranian painter.
+          She discusses how Paykan gave mobility to women in Iran.</p><br>
+        <center><img class="expert-pic" src="../assets/talking-head-kamran-shirdel.png"></center>
+        <p><b>Kamran Shirdel</b> is a prominent Iranian filmmaker who studied at Centro Sperimentale di Cinematografia of Rome. 
+          His 'Paykan Industrial Film' and the iconic 'Happy Birthday Paykan' advertisement were among the most memorable
+          cultural works of the 70s in Iran.</p><br>
       </div>
     </Accordion>
   </AccordionRoot>
